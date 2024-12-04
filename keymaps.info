@@ -1,0 +1,138 @@
+Normal Mode (nnoremap)
+General Keymaps
+
+    <space>: Disable Space (reserved for leader key).
+    <leader>': Swap to the last buffer.
+    <leader>w: Save the current file.
+    <leader>q: Quit the current window.
+    <leader>z: Save and quit the current window.
+    <leader>e: Toggle Oil file manager.
+    <leader>ut: Toggle UndoTree.
+    <leader>no: Turn off highlighted search results.
+
+Navigation
+
+    <C-j>: Navigate down (Tmux or Vim window).
+    <C-k>: Navigate up (Tmux or Vim window).
+    <C-l>: Navigate right (Tmux or Vim window).
+    <C-h>: Navigate left (Tmux or Vim window).
+    <C-u>: Scroll up and center buffer.
+    <C-d>: Scroll down and center buffer.
+    {, }: Navigate paragraph and center.
+    N, n: Navigate next/previous search match and center.
+    G, gg: Jump to start/end of the buffer and center.
+    gd: Jump to definition and center.
+    <C-i>, <C-o>: Navigate jumplist and center.
+    %: Match symbol and center.
+    *, #: Search current word and center.
+    S: Quick find/replace for the word under the cursor.
+
+Diagnostics
+
+    ]d: Next diagnostic.
+    [d: Previous diagnostic.
+    ]e: Next error diagnostic.
+    [e: Previous error diagnostic.
+    ]w: Next warning diagnostic.
+    [w: Previous warning diagnostic.
+    <leader>d: Open diagnostic float window.
+    <leader>ld: Place all diagnostics in quickfix list.
+    <leader>cn: Next quickfix list item.
+    <leader>cp: Previous quickfix list item.
+    <leader>co: Open quickfix list.
+    <leader>cc: Close quickfix list.
+
+Git
+
+    <leader>gb: Toggle Git line blame.
+    <leader>gf: Search Git files.
+
+Telescope
+
+    <leader>?: Find recently opened files.
+    <leader>sb: Search open buffers.
+    <leader>sf: Search files (including hidden).
+    <leader>sh: Search help tags.
+    <leader>sg: Live grep search.
+    <leader>sc: Search commands in dropdown.
+    <leader>/: Search current buffer.
+    <leader>ss: Search spelling suggestions.
+
+Formatting
+
+    <leader>f: Format the current buffer.
+    <leader>rw: Rotate windows.
+    <leader>m: Toggle Maximizer.
+    <leader>=: Resize splits equally.
+    <leader>tc: Run TypeScript compile.
+
+Harpoon
+
+    <leader>ho: Open Harpoon UI.
+    <leader>ha: Add current file to Harpoon.
+    <leader>hr: Remove current file from Harpoon.
+    <leader>hc: Clear all Harpoon marks.
+    <leader>1–<leader>5: Navigate to specific Harpoon file.
+
+Miscellaneous
+
+    L: Jump to end of line.
+    H: Jump to start of line.
+    U: Redo.
+    gx: Open the link under the cursor.
+
+Symbol Outline
+
+    <leader>so: Toggle SymbolsOutline.
+
+Inlay Hints
+
+    <leader>ih: Toggle inlay hints.
+
+Insert Mode (inoremap)
+
+    jj, JJ: Exit insert mode.
+    jk: Exit insert mode (newly added).
+
+Visual Mode (vnoremap)
+
+    <space>: Disable Space (reserved for leader key).
+    L: Jump to end of line.
+    H: Jump to start of line.
+    <A-j>: Move selected block down.
+    <A-k>: Move selected block up.
+
+Visual Block Mode (xnoremap)
+
+    <leader>p: Paste without losing register content.
+    <<, >>: Indent left/right and reselect.
+    H: Jump to start of line.
+    L: Jump to end of line.
+
+Terminal Mode (tnoremap)
+
+    <esc>: Enter normal mode.
+    jj: Enter normal mode.
+    <C-h>: Navigate left (window).
+    <C-j>: Navigate down (window).
+    <C-k>: Navigate up (window).
+    <C-l>: Navigate right (window).
+    <space>: Reenable space functionality to avoid input delay.
+
+LSP Keymaps (Function-based)
+
+Keymaps are bound dynamically to the buffer for LSP functionality:
+
+    <leader>rn: Rename.
+    <leader>ca: Code action.
+    gd: Go to definition.
+    gr: Go to references.
+    gi: Go to implementations.
+    <leader>bs: Buffer symbols.
+    <leader>ps: Workspace symbols.
+    <leader>k: Signature help.
+    <C-k> (Insert mode): Signature help.
+    gD: Go to declaration.
+    td: Go to type definition.
+
+
